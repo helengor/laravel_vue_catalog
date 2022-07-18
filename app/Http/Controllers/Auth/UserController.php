@@ -1,0 +1,18 @@
+<?php
+
+namespace App\Http\Controllers\Auth;
+
+use App\Http\Controllers\Controller;
+use App\Http\Resources\UserResource;
+use Illuminate\Http\Request;
+
+class UserController extends Controller
+{
+    /**
+     * Get authenticated user.
+     */
+    public function current(Request $request)
+    {
+        return new UserResource($request->user());
+    }
+}

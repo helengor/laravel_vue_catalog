@@ -1,0 +1,21 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+@import '~bootstrap-icons/font/bootstrap-icons';
+
+.catalog-table-view input.form-control{
+    padding: 0 0.375rem;
+}
+
+.catalog-table-view .col-name{
+    padding: 0 0.375rem;
+    border: 1px solid transparent;
+    display: inline-block;
+    width: 100%;
+}
